@@ -1,1 +1,10 @@
 hai this is sai patnaik
+ (commands)
+git --version
+git add .
+git status
+git commit "msg" 
+git log
+git push
+git clone <URL>
+git pull --rebase
