@@ -176,7 +176,7 @@ Parameters:
     Metadata:
       'AWS::CloudFormation::Designer':
         id: c535dc93-94d1-43c5-bd1a-b615f159577e
-Outputs:
+  Outputs:
   RSHostName:
     Description: Redshift host name
     Value: !Sub '${etlRedshiftCluster.Endpoint.Address}'
