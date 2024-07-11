@@ -1,0 +1,21 @@
+// Define Neurons
+Neuron SensoryInput {
+    Input: Stimulus;
+    Output: Signal;
+}
+
+Neuron Memory {
+    Input: Signal;
+    Store: Data;
+    Output: Signal;
+}
+
+Neuron DecisionMaker {
+    Input: Signal;
+    Process: Logic;
+    Output: Action;
+}
+
+// Define Synapses (Connections between neurons)
+Synapse SensorToMemory {
+    From
